@@ -14,5 +14,9 @@ namespace WhiteboardWebSite.Controllers
         public ViewResult AboutUs() {
             return View();
         }
+        [ActionName("Registration")]
+        public ActionResult StudentRegister() {
+            return View();
+        }
     }
 }

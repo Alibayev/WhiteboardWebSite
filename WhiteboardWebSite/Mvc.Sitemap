@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <mvcSiteMap xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-3.0" enableLocalization="false">
   <mvcSiteMapNode title="Home" controller="Home" action="Index" changeFrequency="Always" updatePriority="Normal">
-    <mvcSiteMapNode title="AboutUs" controller="Home" action="AboutUs" description="AboutUs" />
+    <mvcSiteMapNode title="About Us" controller="Home" action="AboutUs" description="AboutUs" />
+    <mvcSiteMapNode title="Student Registration" controller="Home" action="Registration" description="Student Registration" />
   </mvcSiteMapNode>
- <mvcSiteMapNode title="Workplace" controller="Workplace" action="Index" description="users">
-  <mvcSiteMapNode title="Calendar" controller="Workplace" action="Calendar"/>
-  <mvcSiteMapNode title="Customers" controller="Workplace" action="Customers"/>
-  <mvcSiteMapNode title="Equipment" controller="Workplace" action="Equipment"/>
- </mvcSiteMapNode>
+ <mvcSiteMapNode title="Student" controller="Student" action="Index" description="students">
+  <mvcSiteMapNode title="Student registration" controller="Student" action="Create"/>
+  </mvcSiteMapNode>
 </mvcSiteMap>
